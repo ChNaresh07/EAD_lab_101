@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/matrix_tate.jpg');
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: grey;
+}
+
+form {
+    max-width: 400px;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #bcd8ab;
+}
+
+label {
+    display: block;
+    margin: 10px 0 8px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"]
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #251e1e;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+textarea {
+    resize: none; 
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="radio"] + label {
+    display: inline;
+    margin-right: 20px;
+}
+
+br {
+    display: none;
+}
+
